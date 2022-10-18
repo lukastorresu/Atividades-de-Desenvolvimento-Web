@@ -1,0 +1,22 @@
+#container {
+    height: 220px;
+    width: 400px;
+    background-color: aqua;
+    border: black solid 5px;
+    background-image: url(https://i0.wp.com/sakugabrasil.com/administracao/wp-content/uploads/2021/06/Spy-x-Family-com-mais-de-4-milhoes-de-copias-2.jpg);
+    background-repeat: no-repeat;
+    background-size: contain;
+    overflow: hidden;
+    overflow-y: scroll;
+}
+P {
+    font-family: cursive,Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    color: red;
+}    
+.caps{
+    text-transform: capitalize; /*Primeira letra maiscula*/
+}
+ul {
+    list-style: none; /*Tirar tópicos das listas*/
+}
