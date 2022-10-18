@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>MegaFilmes</title>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width,
+        initial-scale=1.0">
+        <link rel="stylesheet" href="./style/style.css">
+    </head>
+    <body>
+
+      <header><div id="barra">
+        <h1>Uatizap</h1>
+    </div>      
+  </header>
+
+  <div>
+    <h1 style="margin: 1%;margin-left: 30px">Crie sua conta hoje!</h1>
+ </div>
+
+<div>
+ <p style="margin-left:50px;margin-top:10px">Usuário</p> <form>
+    <input 
+    type="text" 
+    name="usuario"
+    placeholder="Nome Completo"
+    style="margin-left:70px">
+    </form>
+  </div>
+
+  <div>
+    <p style="margin-left:50px;margin-top:10px">Data de Nascimento</p>
+    <input
+    type="date"
+    name="Data de Nascimento"
+    style="margin-left:70px">
+  </div>
+
+  <div> <p style="margin-left:50px;margin-top:10px">E-Mail</p> <form>
+    <input 
+    type="email" 
+    name="email"
+    placeholder="E-mail"
+    style="margin-left:70px">
+</form></div>
+
+<div> <p style="margin-left:50px;margin-top:10px">Senha</p><form>
+    <input 
+    type="password" 
+    name="senha"
+    placeholder="Senha"
+    style="margin-left:70px">
+  </form>
+</div>
+
+<div> <p style="margin-left:50px;margin-top:10px">Gênero</p>
+  <form>
+  <label for="ih" style="margin-left:70px">Homem</label>
+  <input 
+  type="radio" 
+  name="genero"
+  id="ih"
+  value="Homem"
+  style="margin-left:30px">
+
+  <label for="im" style="margin-left:70px">Mulher</label>
+  <input 
+  type="radio" 
+  name="genero"
+  id="im"
+  value="Mulher"
+  style="margin-left:30px">
+
+  <label for="inb" style="margin-left:70px">Outro</label>
+  <input 
+  type="radio" 
+  name="genero"
+  id="inb"
+  value="Outro"
+  style="margin-left:30px">
+
+</form>
+</div>
+<div>
+  <p style="margin-left:50px;margin-top:10px">Cidade</p>
+  <input
+  type="text"
+  name="Cidades"
+  style="margin-left:70px"
+  list="cidades"
+  autocomplete="on">
+  <datalist id="cidades">
+    <option value="Presidente Prudente">
+    <option value="Regente Feijó">
+    <option value="Osvaldo Cruz">
+    <option value="Bastos">
+    <option value="Parapuã"> 
+  </datalist>
+</div>
+<div>
+  <p style="margin-left:50px;margin-top:10px">País</p>
+  <input
+  style="margin-left:70px"
+  type="text"
+  name="Pais"
+  list="Pais"
+  autocomplete="on">
+  <datalist id="Pais">
+    <option value="Brasil">
+  </datalist>
+</div>
+
+<div>
+  <p style="margin-left:50px;margin-top:10px">Descrição</p>
+  <textarea style="margin-left:70px" name="descricao" cols="40" rows="6"></textarea>
+</div>
+
+<div>
+  <input style="margin-left:280px;margin-top:20px" type="submit" value="Enviar"></input>
+</div>
+
+  <footer>
+    <div id="rodape" style="margin-top:70px">
+      <h4>© 2020 - 2022 Todos os direitos reservados. Uatizap® é uma marca registrada de Uatizap, Serviços de Mensagens Ltda.</h4>
+  </div>  
+  </footer>
+        </body>
+</html>

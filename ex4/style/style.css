@@ -1,0 +1,38 @@
+* {
+  font-family: Arial;
+  padding:0;
+  margin:0;
+
+  
+}
+
+#barra {
+  background-color: red; 
+  list-style-type: none;
+  height: 40px;
+  text-align: center;
+  margin: 0;
+      }
+#rodape {
+  background-color: grey; 
+  list-style-type: none;
+  height: 40px;
+  text-align: center;
+  margin: 0;
+      }        
+
+
+.nav {
+  background-color: grey; 
+  list-style-type: none;
+  text-align: center;
+  margin: 0;
+
+  padding: 0;
+}
+
+.nav li {
+display: inline-block;
+font-size: 20px;
+padding: 20px;
+}
