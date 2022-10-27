@@ -2,26 +2,21 @@
     --user-info-bg-color: rgb(0, 0, 0);
     --page-content-bg-color: rgb(82, 82, 82);
     --font-color: white;
-}
 
+}
 
 body {
     margin: 0;
-    
   }
   
-
-
   #root-container {
-    --first-col-width: 10%;
+    --first-col-width: 30%;
     width: 100vw;
-    height:100vh;
+    height: 100vh;
     display: grid;
     grid-template-columns: var(--first-col-width) calc(100% - var(--first-col-width));
     color: var(--font-color);
     font-family: Arial, Helvetica, sans-serif;
-    overflow: visible; 
-    
   }
   
   #user-info {
@@ -29,21 +24,42 @@ body {
     background-color: var(--user-info-bg-color);
     display: grid;
     grid-template-rows: var(--first-row-height) calc(100% - var(--first-row-height)); 
-    overflow:auto;
-    
   }
   
   .total-size {
     height: 100%;
     width: 100%;
   }
-
+  
+  #user-profile {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+  }
+  
+  #user-photo {
+    width: 40%;
+    border-radius: 50%;
+  }
+  
+  #theme-changer {
+    width: 20%;
+    border: none;
+    padding: 6px 8px;
+    border-radius: 3px;
+    background-color: var(--page-content-bg-color);
+    color: var(--font-color);
+  }
+  #theme-changer:hover {
+    cursor: pointer;
+    filter: invert(1);
+  }
   
   #navbar {
     display: flex;
     flex-direction: column;
     align-items: center;
-    overflow:auto;
   }
   
   .content-changer {
@@ -69,7 +85,6 @@ body {
     display: grid;
     place-items: center;
     background-color: var(--user-info-bg-color);
-    
   }
   .networking-link:hover {
     cursor: pointer;
@@ -78,48 +93,37 @@ body {
   
   #page-content {
     background-color: var(--page-content-bg-color);
-    overflow:auto;
-    
+    overflow-y: auto;
   }
   
   #about-me {
     display: flex;
     flex-direction: column;
     align-items: center;
-    overflow:auto;
-    
   }
   
   #text-about-me {
     margin: 0 25px;
     font-family: 'Times New Roman', Times, serif;
     font-size: large;
-    overflow:auto;
-    
   }
   
   .content-disable {
     display: none;
-    
   }
   
   .content-enable {
     display: block;
-    overflow:auto;
-    
   }
   
   #repos-list {
     display: flex;
     flex-direction: column;
     align-items: center;
-    overflow:auto;
-    margin-top:20px;
-    
   }
   
   .repo-container {
-    --height: 120px;
+    --height: 100px;
     display: grid;
     place-items: center;
     -webkit-box-direction: normal;
@@ -130,43 +134,15 @@ body {
     text-decoration: none;
     background-color: var(--user-info-bg-color);
     padding: 10px;
-    margin-top: 20px;
-    
   }
   
   .repo-container > img {
     width: 80%;
-    
   }
   
   .repo-container > div {
     display: grid;
     grid-template-rows: 30% 70%;
     overflow-y: auto;
-    
-  }
-  * {
-    font-family: Arial;
-    color: var(--font-color);
-    padding:0;
-    margin:0;  
-    
   }
   
-  #barra {
-    background-color: var(--user-info-bg-color); 
-    list-style-type: none;
-    height: 40px;
-    text-align: center;
-    margin: 0;
-
-        }
-  #rodape {
-    background-color: var(--user-info-bg-color); 
-    list-style-type: none;
-    height: 40px;
-    text-align: center;
-    
-    margin: 0;
-    
-        } 
