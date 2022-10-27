@@ -1,0 +1,23 @@
+* {
+  font-family: Arial;
+  padding:0;
+  margin:0;
+
+  
+}
+
+#barra {
+  background-color: rgb(33, 185, 13); 
+  list-style-type: none;
+  height: 40px;
+  text-align: center;
+  margin: 0;
+      }
+#rodape {
+  background-color: rgb(33, 185, 13); 
+  list-style-type: none;
+  height: 40px;
+  text-align: center;
+  margin: 0;
+      }        
+
