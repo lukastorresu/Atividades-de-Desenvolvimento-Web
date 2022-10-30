@@ -1,0 +1,141 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: lightcoral;
+}
+
+.div-central {
+    margin: auto;
+}
+
+.div-central {
+    width: 85%;
+    background-color: #f2f2f2;
+    padding: 50px;
+    box-shadow: 0 0 2.2em rgba(0,0,0, .2);
+}
+
+header {
+    text-align: center;
+}
+
+.container-menu{
+    width: 100%;
+}
+
+.logo-header{
+    display: inline-block;
+    margin-right: 30%;
+}
+
+.titulo {
+    display: inline-block;
+    margin-right: 30%;
+    font-size: 1.5em;
+}
+
+.menu-header {
+    display: inline-block;
+}
+
+header ul {
+    margin-top: 24px;
+}
+/*margin right é usado para separar os itens da lista*/
+header li {
+    list-style-type: none;
+    display: inline-block;
+    font-family: 'Sen', sans-serif;
+    font-size: 2rem;
+    margin-right: 2em;
+}
+
+/*o ultimo ite da lista tinha uma margem diferente de 0 e isso causava desalinhamento, como resolver a baixo*/
+header li:last-child{
+    margin-right: 0;
+}
+/*text decoration para tirar o sublinhdo dos links*/
+header a{
+    text-decoration: none;
+    color: lightcoral;
+    padding: .8em;
+}
+
+main {
+    margin-top: 5em;
+}
+
+article {
+    width: 95%;
+}
+
+article img {
+    margin: 0 0 2.5em 2em;
+    width: 400px;
+}
+
+article p{
+    font-size: 1.5rem;
+    line-height: 150%;
+    margin-bottom: 1em;
+    font-family: 'Outfit', sans-serif;
+}
+
+article h2 {
+    font-size: 3.5rem;
+    margin-bottom: .50em;
+    color: lightcoral;
+    font-family: 'Sen', sans-serif;
+}
+
+hr {
+    width: 75%;
+    margin: 4em auto;
+    border: 1.5px solid rgba(216,91,83,.25);
+}
+
+.texto-direita {
+    text-align: right;
+}
+
+.container-meio p {
+    text-align: right;
+} 
+
+.imagem1 {
+    float: right;
+}
+
+.imagem2 {
+    float: left;
+}
+
+.imagem3 {
+    float: right;
+}
+
+footer {
+    text-align: center;
+    background-color: lightcoral;
+}
+
+.footer-img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 40%;
+}
+
+.more-region {
+    margin-top: 1em;
+    margin-bottom: 1em;
+}
+
+footer p {
+    margin-top: 1em;
+    margin-bottom: 1em;
+}
