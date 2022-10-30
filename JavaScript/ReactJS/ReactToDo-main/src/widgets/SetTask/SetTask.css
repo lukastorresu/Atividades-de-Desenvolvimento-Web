@@ -1,0 +1,60 @@
+.formulario {
+    color: white;
+    font-weight: 200;
+    display: flex;
+    justify-content: center;
+    background-color: #a3a3a3;
+    border-radius: 3px;
+    box-shadow: 8px 8px 16px rgba(0,0,0, 0.08);
+    align-self: center;
+    padding: 20px;
+    border: 1px solid #888;
+    width: 80%;
+    max-width: 600px;
+}
+
+.formulario form {
+    display: flex;
+    flex-direction: column;
+    width: 60%;
+    justify-content: center;
+}
+
+.input {
+    border-radius: 3px;
+    font-family: "Roboto";
+    font-size: 15px;
+    resize: vertical;
+    max-height: 300px;
+}
+
+.buttons{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.cancelButton{
+    border: none;
+    font-weight: 100;
+    font-size: 18px;
+    padding: 10px;
+    cursor: pointer;
+    color: #FFF;
+    width: 40%;
+    margin: 18px 0;
+    background-color: transparent
+}
+
+.cancelButton:hover{
+    border: none;
+    border-radius: 3px;
+    background-color:#afafaf;
+}
+
+@media only screen and (max-width: 800px) {
+    .formulario{
+        width: 100%;
+    }
+}
