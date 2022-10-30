@@ -1,0 +1,18 @@
+body {
+  margin: 0;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 400;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  height: 100%;
+  width: 100%;
+  background-color:rgb(46, 58, 68);
+  color: white
+}
+
+html {
+    height: 100%;
+    width: 100%;
+  }
+
+
