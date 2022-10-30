@@ -1,0 +1,13 @@
+body {
+    background-color: lightblue;
+}
+
+.container {
+    margin: 50px;
+    width: 507px;
+    height: 600px;
+    outline: groove 1px black;
+    display: flex;
+    justify-content: center;
+    background-color: burlywood;
+}
